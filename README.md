@@ -1,8 +1,6 @@
 <h1 align="center">
   <br>
-  <br>
-  <img width="360" src="https://github.com/unixzii/type.js/raw/master/.github/screencast.gif" alt="type.js">
-  <br>
+  <img width="500" src="https://github.com/unixzii/type.js/raw/master/.github/screencast.gif" alt="type.js">
   <br>
   <br>
 </h1>

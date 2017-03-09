@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      font-family: "Open Sans", "Gill Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+
+    h1 {
+      margin: 20px 0;
+      font-weight: lighter;
+    }
+
+    p {
+      height: 40px;
+    }
+
+    #header {
+      background: linear-gradient(120deg, #155799, #159957);
+      text-align: center;
+      color: #fff;
+      padding: 70px 0;
+    }
+
+    #typewriter {
+      opacity: 0.7;
+    }
+
+    #cursor {
+      margin-left: 1px;
+      border-left: 3px solid #fff;
+      color: transparent;
+      animation: blink 1.3s infinite;
+    }
+
+    @keyframes blink {
+      0% { opacity: 1; }
+      50% { opacity: 1; }
+      60% { opacity: 0; }
+      90% { opacity: 0; }
+      100% { opacity: 1; }
+    }
+  </style>
+</head>
+<body>
+  <div id="header">
+    <h1>Type.js</h1>
+    <p><span id="typewriter"></span><span id="cursor">_</span></p>
+  </div>
+</body>
+<script src="../dist/client.js"></script>
+<script>
+  var el = document.getElementById('typewriter');
+  var data = '[{\"mode\":\"+\",\"content\":\"T\",\"delay\":0},{\"mode\":\"+\",\"content\":\"y\",\"delay\":196},{\"mode\":\"+\",\"content\":\"p\",\"delay\":97},{\"mode\":\"+\",\"content\":\"e\",\"delay\":136},{\"mode\":\"+\",\"content\":\".\",\"delay\":241},{\"mode\":\"+\",\"content\":\"j\",\"delay\":239},{\"mode\":\"+\",\"content\":\"s\",\"delay\":88},{\"mode\":\"+\",\"content\":\" \",\"delay\":152},{\"mode\":\"+\",\"content\":\"i\",\"delay\":168},{\"mode\":\"+\",\"content\":\"s\",\"delay\":105},{\"mode\":\"+\",\"content\":\" \",\"delay\":143},{\"mode\":\"+\",\"content\":\"a\",\"delay\":144},{\"mode\":\"+\",\"content\":\" \",\"delay\":400},{\"mode\":\"+\",\"content\":\"t\",\"delay\":168},{\"mode\":\"+\",\"content\":\"o\",\"delay\":137},{\"mode\":\"+\",\"content\":\"o\",\"delay\":311},{\"mode\":\"+\",\"content\":\"l\",\"delay\":191},{\"mode\":\"+\",\"content\":\" \",\"delay\":105},{\"mode\":\"+\",\"content\":\"f\",\"delay\":416},{\"mode\":\"+\",\"content\":\"o\",\"delay\":112},{\"mode\":\"+\",\"content\":\"r\",\"delay\":95},{\"mode\":\"+\",\"content\":\" \",\"delay\":196},{\"mode\":\"+\",\"content\":\"c\",\"delay\":206},{\"mode\":\"+\",\"content\":\"r\",\"delay\":223},{\"mode\":\"+\",\"content\":\"e\",\"delay\":88},{\"mode\":\"+\",\"content\":\"a\",\"delay\":71},{\"mode\":\"+\",\"content\":\"t\",\"delay\":96},{\"mode\":\"+\",\"content\":\"i\",\"delay\":185},{\"mode\":\"+\",\"content\":\"n\",\"delay\":152},{\"mode\":\"+\",\"content\":\"g\",\"delay\":96},{\"mode\":\"+\",\"content\":\" \",\"delay\":136},{\"mode\":\"+\",\"content\":\"t\",\"delay\":760},{\"mode\":\"+\",\"content\":\"y\",\"delay\":176},{\"mode\":\"+\",\"content\":\"p\",\"delay\":120},{\"mode\":\"+\",\"content\":\"e\",\"delay\":128},{\"mode\":\"+\",\"content\":\"s\",\"delay\":495},{\"mode\":\"-\",\"delay\":273},{\"mode\":\"+\",\"content\":\"w\",\"delay\":80},{\"mode\":\"+\",\"content\":\"r\",\"delay\":168},{\"mode\":\"+\",\"content\":\"i\",\"delay\":176},{\"mode\":\"+\",\"content\":\"t\",\"delay\":153},{\"mode\":\"+\",\"content\":\"e\",\"delay\":455},{\"mode\":\"+\",\"content\":\"r\",\"delay\":72},{\"mode\":\"+\",\"content\":\" \",\"delay\":160},{\"mode\":\"+\",\"content\":\"s\",\"delay\":520},{\"mode\":\"+\",\"content\":\"i\",\"delay\":143},{\"mode\":\"+\",\"content\":\"m\",\"delay\":161},{\"mode\":\"+\",\"content\":\"u\",\"delay\":200},{\"mode\":\"+\",\"content\":\"l\",\"delay\":175},{\"mode\":\"+\",\"content\":\"a\",\"delay\":57},{\"mode\":\"+\",\"content\":\"t\",\"delay\":119},{\"mode\":\"+\",\"content\":\"i\",\"delay\":113},{\"mode\":\"+\",\"content\":\"o\",\"delay\":103},{\"mode\":\"+\",\"content\":\"n\",\"delay\":161},{\"mode\":\"+\",\"content\":\"s\",\"delay\":79},{\"mode\":\"+\",\"content\":\".\",\"delay\":441},{\"mode\":\"+\",\"content\":\"\\n\",\"delay\":192},{\"mode\":\"+\",\"content\":\"M\",\"delay\":432},{\"mode\":\"+\",\"content\":\"a\",\"delay\":160},{\"mode\":\"+\",\"content\":\"d\",\"delay\":143},{\"mode\":\"+\",\"content\":\"e\",\"delay\":106},{\"mode\":\"+\",\"content\":\" \",\"delay\":110},{\"mode\":\"+\",\"content\":\"b\",\"delay\":800},{\"mode\":\"+\",\"content\":\"y\",\"delay\":352},{\"mode\":\"+\",\"content\":\" \",\"delay\":152},{\"mode\":\"+\",\"content\":\"C\",\"delay\":345},{\"mode\":\"+\",\"content\":\"y\",\"delay\":142},{\"mode\":\"+\",\"content\":\"a\",\"delay\":99},{\"mode\":\"+\",\"content\":\"n\",\"delay\":126},{\"mode\":\"+\",\"content\":\"d\",\"delay\":80},{\"mode\":\"+\",\"content\":\"e\",\"delay\":56},{\"mode\":\"+\",\"content\":\"v\",\"delay\":224},{\"mode\":\"-\",\"delay\":513},{\"mode\":\"-\",\"delay\":119},{\"mode\":\"-\",\"delay\":112},{\"mode\":\"-\",\"delay\":120},{\"mode\":\"-\",\"delay\":120},{\"mode\":\"-\",\"delay\":121},{\"mode\":\"-\",\"delay\":111},{\"mode\":\"-\",\"delay\":128},{\"mode\":\"-\",\"delay\":225},{\"mode\":\"-\",\"delay\":134},{\"mode\":\"+\",\"content\":\"w\",\"delay\":137},{\"mode\":\"+\",\"content\":\"i\",\"delay\":136},{\"mode\":\"+\",\"content\":\"t\",\"delay\":120},{\"mode\":\"+\",\"content\":\"h\",\"delay\":168},{\"mode\":\"+\",\"content\":\" \",\"delay\":144},{\"mode\":\"+\",\"content\":\"l\",\"delay\":288},{\"mode\":\"+\",\"content\":\"o\",\"delay\":176},{\"mode\":\"+\",\"content\":\"v\",\"delay\":80},{\"mode\":\"+\",\"content\":\"e\",\"delay\":95},{\"mode\":\"+\",\"content\":\" \",\"delay\":178},{\"mode\":\"+\",\"content\":\"b\",\"delay\":415},{\"mode\":\"+\",\"content\":\"y\",\"delay\":214},{\"mode\":\"+\",\"content\":\" \",\"delay\":186},{\"mode\":\"+\",\"content\":\"C\",\"delay\":392},{\"mode\":\"+\",\"content\":\"y\",\"delay\":200},{\"mode\":\"+\",\"content\":\"a\",\"delay\":95},{\"mode\":\"+\",\"content\":\"n\",\"delay\":113},{\"mode\":\"+\",\"content\":\"d\",\"delay\":112},{\"mode\":\"+\",\"content\":\"e\",\"delay\":57},{\"mode\":\"+\",\"content\":\"v\",\"delay\":175},{\"mode\":\"+\",\"content\":\".\",\"delay\":304}]';
+
+  new TypePlayer(data, function (text) {
+    el.innerText = text;
+  }, 1.5).play();
+</script>
+</html>

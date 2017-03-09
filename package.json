@@ -1,0 +1,43 @@
+{
+  "name": "type.js",
+  "version": "0.1.0",
+  "description": "A tool for creating typewriter simulations.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Cyandev <unixzii@gmail.com>",
+  "license": "MIT",
+  "bin": {
+    "type-cli": "lib/cli.js"
+  },
+  "engines": {
+    "node": ">=6"
+  },
+  "files": [
+    "lib"
+  ],
+  "keywords": [
+    "cli-app",
+    "cli",
+    "typewritter",
+    "simulation",
+    "web",
+    "generate",
+    "generator"
+  ],
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "commander": "^2.9.0",
+    "diff": "^3.2.0",
+    "pify": "^2.3.0"
+  },
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-preset-es2015": "^6.22.0",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-browserify": "^0.5.1"
+  }
+}

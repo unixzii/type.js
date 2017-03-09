@@ -12,7 +12,9 @@ type.js allows you to type anything in terminal, and it will record the whole pr
 ## Install
 
 ```console
-$ sudo npm install -g type.js
+$ git clone https://github.com/unixzii/type.js.git
+
+$ npm install
 ```
 
 ## Usage
@@ -20,7 +22,7 @@ $ sudo npm install -g type.js
 ### To Record:
 
 ```console
-$ type-cli -o path/to/file.json
+$ bin/type-cli
 ```
 
 > Pass option `--help` to view detail usage.
